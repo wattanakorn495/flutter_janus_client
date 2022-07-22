@@ -62,6 +62,8 @@ part './interfaces/video_call/events/video_call_event.dart';
 
 part './interfaces/video_call/events/video_call_hangup_event.dart';
 
+part './interfaces/video_call/events/video_call_list_event.dart';
+
 part './interfaces/video_call/events/video_call_incoming_call_event.dart';
 
 part './interfaces/video_call/events/video_call_registered_event.dart';
