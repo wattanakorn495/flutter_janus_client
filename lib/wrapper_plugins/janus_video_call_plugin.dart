@@ -143,6 +143,8 @@ class JanusVideoCallPlugin extends JanusPlugin {
                     null)) {
           _typedMessagesSink
               ?.addError(JanusError.fromMap(typedEvent.event.plugindata?.data));
+        } else {
+          _typedMessagesSink?.add(typedEvent);
         }
       });
     }
