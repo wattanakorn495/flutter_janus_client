@@ -19,7 +19,7 @@ dependencies:
   stream_channel: ^2.1.0
   uuid: ^3.0.6
   logging: ^1.0.2
-  collection: ^1.16.0
+  collection: ^1.15.0
   dartdoc: ^6.0.0
 
 
