@@ -24,7 +24,7 @@ class VideoCallListEvent {
 
 class ListResult {
   ListResult({
-      this.list,});
+      required this.list,});
 
   List<String> list;
 
